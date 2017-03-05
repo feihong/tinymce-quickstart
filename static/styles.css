@@ -1,0 +1,13 @@
+.vbox {
+  display: flex;
+  flex-direction: column;
+}
+body {
+  height: 100vh;
+}
+form {
+  flex: 1;
+}
+/*form .mce-tinymce {
+  flex: 1;
+}*/
