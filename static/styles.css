@@ -8,6 +8,13 @@ body {
 form {
   flex: 1;
 }
-/*form .mce-tinymce {
+
+
+form .mce-tinymce, form .mce-stack-layout, form .mce-edit-area {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-}*/
+}
+form .mce-tinymce iframe {
+  flex: 1;
+}
